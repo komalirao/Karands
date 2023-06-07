@@ -1,0 +1,18 @@
+.notify{
+    width: 25vw;
+    height: 50vh;
+    border: 1px solid rgb(194, 188, 188);
+    margin-left: 67%;
+    margin-top:-3.5%;
+    background-color: gray;
+}
+
+
+.messages
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;  
+}

@@ -1,0 +1,77 @@
+.pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 800px;
+  }
+  
+  .pricing-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .pricing-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .payment-options {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .payment-options:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .payment-options ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .payment-options li {
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .payment-options li:hover {
+    transform: scale(1.1);
+  }
+  
+  .qr-code {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .qr-code:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .qr-code img {
+    max-width: 100%;
+    border-radius: 10px;
+  }

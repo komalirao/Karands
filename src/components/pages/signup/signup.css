@@ -1,0 +1,23 @@
+.dropdown{
+gap: 4px;
+padding: 0 8px;
+background-color: white;
+display: flex;
+flex-direction: column;
+border: 1px solid gray;
+}
+.dropdown-row{
+    cursor: pointer;
+    margin: 1px;
+    text-align: start;
+}
+
+
+.card{
+    padding: 0 8px;
+}
+@media (max-width: 768px) {
+  .mdb-tabs {
+    flex-direction: column;
+  }
+}

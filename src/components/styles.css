@@ -1,0 +1,120 @@
+/* Common Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Registration Page Styles */
+  .registration-container {
+    
+    background-color: rgb(255, 166, 0);
+    box-shadow: 0 4px 6px rgba(237, 55, 55, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .registration-form-container {
+    
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 30vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .registration-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registration-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #60d65e;
+    border-radius: 4px;
+  }
+  
+  .registration-checkbox-container {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .registration-checkbox {
+    margin-right: 10px;
+  }
+  
+  .registration-checkbox-label {
+    font-size: 14px;
+  }
+  
+  .registration-button {
+    background-color: green;
+    color: white;
+    border: none;
+
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .registration-login-link {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  /* Sign-In Page Styles */
+  .signin-container {
+    background-color: orange;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signin-form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 30vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signin-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signin-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signin-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signin-register-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  

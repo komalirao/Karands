@@ -1,0 +1,17 @@
+.profile-since {
+	padding: 15px 0;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.card-header{
+    font-weight: 500;
+}
+.edit{
+	font-size: 30px;
+	display: flex;
+	
+}

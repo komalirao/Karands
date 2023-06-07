@@ -1,0 +1,21 @@
+.ichp {
+    width: 90vw;
+    height: 30vh;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.ichptwo {
+    width: 90vw;
+    height: 30vh;
+    /* border: 1px solid red; */
+    margin-left: 400px;
+    margin-top: 500px;
+
+
+
+   
+}
